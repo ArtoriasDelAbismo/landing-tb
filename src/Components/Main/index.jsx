@@ -11,14 +11,7 @@ function Main() {
         <p className="animated fadeIn">Check your racket string and tension</p>
       </div>
 
-      <div className="input-container">
-        <input
-          type="text"
-          placeholder="Enter your name"
-          className="animated pulse"
-        ></input>
-        <button className="submit-button">Submit</button>
-      </div>
+      
     </section>
   );
 }

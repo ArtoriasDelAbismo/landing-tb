@@ -1,6 +1,5 @@
 import React from "react";
 import './Navbar.css';
-
 function Navbar() {
   return (
     
@@ -15,9 +14,7 @@ function Navbar() {
           </a>
         </div>
 
-        <div className="sign-up">
-          <button className="sign-up-button">Sign Up</button>
-        </div>
+        
       </nav>
     
   );
