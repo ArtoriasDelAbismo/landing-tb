@@ -29,6 +29,13 @@
     justify-content: end;
     padding-right: 20px;
   }
+
+  .division-horizontal {
+    height: 1px;
+    width: 100%;
+    background-color: var(--white);
+    position: absolute;
+  }
   
   .division-center {
     width: 1px;

@@ -41,8 +41,8 @@ function Footer() {
             </li>
           </ul>
         </div>
-
         <div className="division-center"></div>
+        <div className="division-horizontal"></div>
 
         <div className="footer-section-right">
           <article>

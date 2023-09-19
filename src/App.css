@@ -1,5 +1,24 @@
 /*General*/
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #f8f8f8;
+  --orangeTB: #dd7430;
+  --yellowBall: #E5FF28;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+  --text-input-field: #F7F7F7;
+
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Quicksand', sans-serif;    }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,11 +39,20 @@ html {
 
 
 body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--orangeTB);
+  /*
   height: 25vh;
   background-image: url(./assets/img/backgroundImage.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  */
 }
 
 main {

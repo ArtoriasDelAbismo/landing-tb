@@ -10,13 +10,12 @@
   .sign-up-button {
     width: 116px;
     height: 36px;
-    font-size: 1.4rem;
-    font-weight: 600;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 1.6rem;
+    font-weight: 700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
     border-radius: 18px;
     border: none;
     cursor: pointer;
-    color: var(--white);
-    background-color: var(--orangeTB);
+    color: #dd7430;
+    background-color: var(--white);
   }
