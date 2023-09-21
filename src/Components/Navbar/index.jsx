@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar flex py-5 px-8">
       <div className="img-logo">
-        <a href="logo">
+        <a href="/">
           <img
             src={require("../../assets/logos/logo-tierra-batida 1.svg").default}
             alt="Logo"
