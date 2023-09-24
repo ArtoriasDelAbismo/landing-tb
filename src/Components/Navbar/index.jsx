@@ -12,9 +12,10 @@ function Navbar() {
           <img
             src={require("../../assets/logos/logo-tierra-batida 1.svg").default}
             alt="Logo"
-            className="logoTB"
+            className="logoTB animated flipInY rounded-xl"
           ></img>
         </a>
+
       </div>
 
       <ul className="flex items-center gap-6 text-xl text-white mr-56 cursor-pointer">
