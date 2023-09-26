@@ -1,11 +1,9 @@
 .footer-section {
   display: flex;
   height: 138px;
-  background-color: var(--orangeTB);
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  background-color: var(--orangeTB2);
+  position:relative;
+  top: 292px;
 }
 
   

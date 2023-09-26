@@ -19,7 +19,7 @@
   }
 
   .form a {
-    color: var(--orangeTB);
+    color: var(--white);
     font-size: var(--sm);
     text-align: center;
     text-decoration: underline;

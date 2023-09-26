@@ -29,7 +29,7 @@ function MyAccount() {
             <input
               type="submit"
               value="Edit"
-              className="w-80 h-16 mt-9 border rounded-lg cursor-pointer font-bold shadow-lg"
+              className="w-80 h-16 mt-9 border rounded-lg cursor-pointer font-bold shadow-lg bg-slate-400"
             />
       </div>
   )

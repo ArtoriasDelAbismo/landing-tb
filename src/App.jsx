@@ -8,6 +8,7 @@ import { useState } from "react";
 import { ContextProvider } from "./Components/Context";
 import { BrowserRouter } from "react-router-dom";
 import { AppRoutes } from "./Components/Routes/index";
+import { ChatBot } from "./Components/ChatBot/index";
 import "./App.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             openModal={openModal}
             setOpenModal={setOpenModal}
           ></LoginButton>
+          <ChatBot />
           <Footer />
           {openModal && (
             <Modal>
