@@ -14,7 +14,10 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={require("../../assets/icons/instagram.svg").default} alt="instagram" />
+                <img
+                  src={require("../../assets/icons/instagram.svg").default}
+                  alt="instagram"
+                />
               </a>
             </li>
 
@@ -25,7 +28,10 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={require("../../assets/icons/facebook.svg").default} alt="facebook" />
+                <img
+                  src={require("../../assets/icons/facebook.svg").default}
+                  alt="facebook"
+                />
               </a>
             </li>
 
@@ -36,7 +42,10 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={require("../../assets/icons/website.svg").default} alt="website" />
+                <img
+                  src={require("../../assets/icons/website.svg").default}
+                  alt="website"
+                />
               </a>
             </li>
           </ul>
@@ -47,7 +56,10 @@ function Footer() {
           <article>
             <div className="phone-social-right">
               <a href="/" className="social-right">
-                <img src={require("../../assets/icons/phone.svg").default} alt="phone" />
+                <img
+                  src={require("../../assets/icons/phone.svg").default}
+                  alt="phone"
+                />
               </a>
               <p id="text">0342 155682136</p>
             </div>
@@ -59,14 +71,20 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={require("../../assets/icons/location.svg").default} alt="location" />
+                <img
+                  src={require("../../assets/icons/location.svg").default}
+                  alt="location"
+                />
               </a>
               <p id="text">Saavedra 2372 - Santa Fe</p>
             </div>
 
             <div className="mail-social-right">
               <a href="/" className="social-right">
-                <img src={require("../../assets/icons/mail.svg").default} alt="location" />
+                <img
+                  src={require("../../assets/icons/mail.svg").default}
+                  alt="location"
+                />
               </a>
               <p id="text">tierrabatida@gmail.com</p>
             </div>

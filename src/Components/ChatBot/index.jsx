@@ -1,11 +1,13 @@
 import { useState } from 'react'
+import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 import './ChatBot.css'
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
-import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
+import "transition-style";
+
 
 const API_KEY = "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";
 const systemMessage = {
-  "role": "system", "content": "Sos un especialista en tenis, raquetas de tenis, encordados y tensiónes, le preguntarás al cliente que tipo de juego tiene y dependiendo de la respuesta le aconsejarás que raqueta, encordado y tensión se adaptaría mejor a su juego y por qué. Si te preguntan cualquier cosa que no esté relacionada con el tenis, raquetas, tensiones o encordados responderás que no tienes el conocimiento necesario, y que fuiste entrenado para ayudar al cliente con todo lo relacionado a equipamiento de tenis"
+  "role": "system", "content": "Sos un especialista en tenis, raquetas de tenis, encordados y tensiónes que trabaja en Tierra Batida, le preguntarás al cliente que tipo de juego tiene y dependiendo de la respuesta le aconsejarás que raqueta, encordado y tensión se adaptaría mejor a su juego y por qué. Si aconsejás visitar la tienda la dirección es Saavedra 2372 Santa Fe o https://tierrabatida.com.ar Si te preguntan cualquier cosa que no esté relacionada con el tenis, raquetas, tensiones o encordados responderás que no tienes el conocimiento necesario, y que fuiste entrenado para ayudar al cliente con todo lo relacionado a equipamiento de tenis"
 }
 
 function ChatBot() {
@@ -83,11 +85,11 @@ function ChatBot() {
   }
 
   return (
-    <div className="chatbot-main-container">
+    <div className="chatbot-main-container" >
       <div className="chatbot-container">
-        <MainContainer style={{height:"650px", width:"400px", borderRadius:"8px", fontSize:"1.5rem", padding:"4px", position:"absolute", top:"100px"}}>
+        <MainContainer responsive transition-style="in:wipe:up" style={{height:"656px", width:"400px", marginRight:"90px", borderRadius:"8px", fontSize:"1.5rem", padding:"4px", position:"absolute", top:"100px"}}>
           <ChatContainer>       
-            <MessageList 
+            <MessageList
               scrollBehavior="smooth"
               typingIndicator={isTyping ? <TypingIndicator content="ChatGPT is typing" /> : null}
             >

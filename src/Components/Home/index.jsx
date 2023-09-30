@@ -6,14 +6,15 @@ function Home() {
   return (
     <Layout>
       <div className="main-container">
-        <div className="text-container-box">
+        <div className="text-container-box text-left">
           <h1 className="animated fadeIn">
-            Keep track of your racket customization!
+            Ask the TierraBot to help you find the best racket to improve your game!
           </h1>
           <p className="animated fadeIn">
-            Check your racket string and tension
+            Not happy with your string? No prob, the TierraBot knows a lot about that too ;)
           </p>
         </div>
+
       </div>
     </Layout>
   );

@@ -1,7 +1,6 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--orangeTB2);
 }
 
 
@@ -10,6 +9,7 @@
   height: 100%;
   min-width: 166px;
   padding: 5px;
+  margin-left: 60px;
 }
 
 .img-logo img {
