@@ -3,7 +3,6 @@ import { Navbar } from "./Components/Navbar";
 import { Footer } from "./Components/Footer";
 import { Login } from "./Components/Login";
 import { Modal } from "./Components/Modal";
-import { LoginButton } from "./Components/LoginButton";
 import { useState } from "react";
 import { ContextProvider } from "./Components/Context";
 import { BrowserRouter } from "react-router-dom";
@@ -23,14 +22,12 @@ function App() {
         <Navbar />
         <SideMenu />
         <AppRoutes />
-        <LoginButton
-          openModal={openModal}
-          setOpenModal={setOpenModal}
-        ></LoginButton>
-        <ChatBotButton openChatBot={openChatBot} setOpenChatbot={setOpenChatbot}/>
-        {openChatBot && (
-          <ChatBot />
-        )}
+
+        <ChatBotButton
+          openChatBot={openChatBot}
+          setOpenChatbot={setOpenChatbot}
+        />
+        {openChatBot && <ChatBot />}
         <Footer />
         {openModal && (
           <Modal>
@@ -43,3 +40,8 @@ function App() {
 }
 
 export default App;
+
+/*<LoginButton
+          openModal={openModal}
+          setOpenModal={setOpenModal}
+></LoginButton>*/

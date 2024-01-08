@@ -18,7 +18,7 @@ function Navbar() {
 
       </div>
 
-      <ul className="flex items-center gap-6 text-xl text-white mr-56 cursor-pointer">
+      <ul className="flex items-center gap-10 text-xl text-white mr-32 cursor-pointer">
         <li>momojour@gmail.com</li>
         <li>
           <NavLink 
